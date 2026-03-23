@@ -110,7 +110,7 @@ body, html {
     
 .Txt_itrdc {
     font-family: "Pretendard";
-    font-weight: 700;
+    font-weight: 600;
     background: linear-gradient(to bottom, #434343, #ccc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
