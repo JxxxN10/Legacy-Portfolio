@@ -110,12 +110,59 @@ body, html {
     
 .Txt_itrdc {
     font-family: "Pretendard";
-    font-weight: 600;
+    font-weight: 700;
     background: linear-gradient(to bottom, #434343, #ccc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
+
+.SubTxt_itrdc {
+    font-family: "Pretendard";
+    font-weight: 300;
+    color: #434343;
+    padding-top: 14px;
+}
+
+.license_1 {
+    color: #ffffff;
+    padding-top:300px;
+    padding-bottom: 450px;
+    background: linear-gradient(to bottom, #000000, #252525);
+    text-align: center;
+}
+
+.Main_TT2 {
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: "Pretendard";
+    background: linear-gradient(to top, #020064, #9093ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+
+.SUB_TT2 {
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #434343;
+}
+
+.img_icdl1 {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 300px;
+    color: white;
+    width: 200px;
+}
+
 
 @media (max-width: 770px){
     .Txt_itrdc{
@@ -132,66 +179,39 @@ body, html {
     }
 
 
-    .License_1 {
+    .license_1 {
         color: #ffffff;
         padding-top:300px;
         padding-bottom: 450px;
         background: linear-gradient(to bottom, #000000, #252525);
         text-align: center;
     }
-    .Main_TT2 {
+    .license_1 .Main_TT2{
         font-family: "Pretendard";
         background: linear-gradient(to top, #020064, #9093ff);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 40px;
+        font-size: 35px;
         text-align: center;
         font-weight: 600;
     }
 
-
-    .SUB_TT2 {
-        font-size: 24px;
+    .license_1 .SUB_TT2 {
+        font-size: 14px;
         font-weight: 500;
         text-align: center; 
         color: #434343;
     }
-
+    .IMG_icdl {
+        display: flex;
+        justify-content: center;
+    }
+    
     .img_icdl1 {
         margin-top: 300px;
         color: white;
         width: 200px;
+
     }
 
-}
-
-.license_1 {
-    color: #ffffff;
-    padding-top:300px;
-    padding-bottom: 450px;
-    background: linear-gradient(to bottom, #000000, #252525);
-    text-align: left;
-
-}
-
-.Main_TT2 {
-    font-family: "Pretendard";
-    background: linear-gradient(to top, #020064, #9093ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 40px;
-    font-weight: 600;
-}
-
-
-.SUB_TT2 {
-    font-size: 24px;
-    font-weight: 500;
-    color: #434343;
-}
-
-.img_icdl1 {
-    margin-top: 300px;
-    color: white;
-    width: 200px;
 }
